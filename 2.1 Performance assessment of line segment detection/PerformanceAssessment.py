@@ -155,14 +155,14 @@ for name in listNoDupNames:
 
 
 
-    #goodResults = (truePositive + trueNegative) * 100
-    #badResults = (falseNegative + falsePositive) * 100
+    goodResults = (truePositive + trueNegative) * 100
+    badResults = (falseNegative + falsePositive) * 100
 
-    #print('Good predictions : ', goodResults)
-    #print('Bad predictions : ',badResults)
+    print('Good predictions : ', goodResults)
+    print('Bad predictions : ',badResults)
 
 
-
+    #Code to save results
     #dictResults[name] = (truePositive * 100, trueNegative *
     #                     100, falseNegative * 100, falsePositive * 100, goodResults, badResults)
     #line = str(name) + ' : ' + str(dictResults[name])
